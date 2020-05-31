@@ -3,6 +3,7 @@ https://www.coursera.org/learn/golang-concurrency/home/welcome
 
 ## Problem statement. 
 Implement the dining philosopher’s problem with the following constraints/modifications.
+https://en.wikipedia.org/wiki/Dining_philosophers_problem
 
 1. There should be 5 philosophers sharing chopsticks, with one chopstick between each adjacent pair of philosophers.
 2. Each philosopher should eat only 3 times (not in an infinite loop as we did in lecture)
