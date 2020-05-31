@@ -9,7 +9,7 @@ import (
 var wg sync.WaitGroup
 var host = make(chan bool, 2)
 
-// Chops a single chopstick can be used as a mtuex object
+// a single chopstick can be used as a mutex object
 type ChopS struct{ sync.Mutex }
 
 // philosopher has an ID, and 2 assigned chopsticks
